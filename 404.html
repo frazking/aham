@@ -1,47 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Caveat&family=Dancing+Script&family=Pacifico&family=Satisfy&family=Great+Vibes&family=Cinzel:wght@400;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>FARAZ VAULT</title>
-    <meta name="description" content="Just A Fun Project By Faraz Vault.">
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/Pcg3HePY64e2wWJUiqhdDPSXbqu2/social-images/social-1767744586687-banner.png">
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/Pcg3HePY64e2wWJUiqhdDPSXbqu2/social-images/social-1767744586687-banner.png">
-    
-  
-  <link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/Pcg3HePY64e2wWJUiqhdDPSXbqu2/uploads/1767708189879-Gemini_Generated_Image_xgy2vexgy2vexgy2.png">
-  
-  
-  
-  
-  
-  
-  
-  
-  <meta property="og:title" content="Faraz Vault">
-  <meta name="twitter:title" content="Faraz Vault">
-  <meta property="og:description" content="Just A Fun Project By Faraz Vault.">
-  <meta name="twitter:description" content="Just A Fun Project By Faraz Vault.">
-  <script type="module" crossorigin src="assets/index-C495asj0.js"></script>
-  <link rel="stylesheet" crossorigin href="assets/index-BQDcY_Pc.css">
-<style>.modal-overlay, .login-popup { display: none !important; } .pro-tools-locked { pointer-events: auto !important; opacity: 1 !important; filter: none !important; }</style>
-<script>function bypassLogin(){ localStorage.setItem("supabase.auth.token", "dummy_token"); window.location.href="index.html"; }</script>
-<script defer src="~flock.js" data-proxy-url="https://farazvault.store/~api/analytics"></script></head>
-
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>FARAZ VAULT | PRO TOOLS</title>
+    <style>
+        body { background: #0f172a; color: white; font-family: sans-serif; text-align: center; margin: 0; }
+        .header { background: #1e293b; padding: 20px; border-bottom: 2px solid #8b5cf6; }
+        .container { padding: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; }
+        .tool-card { background: #1e293b; padding: 15px; border-radius: 8px; border: 1px solid #334155; cursor: pointer; transition: 0.3s; }
+        .tool-card:hover { border-color: #8b5cf6; transform: translateY(-5px); }
+        a { color: white; text-decoration: none; font-weight: bold; }
+        .badge { background: #8b5cf6; padding: 2px 8px; border-radius: 4px; font-size: 10px; }
+    </style>
+    <script>
+        // Universal Bypass: Kisi bhi popup ko aane hi nahi dega
+        setInterval(() => {
+            const badElements = document.querySelectorAll('[class*="modal"], [id*="auth"], [class*="overlay"]');
+            badElements.forEach(el => el.remove());
+            document.body.style.overflow = "auto";
+        }, 100);
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 FARAZ VAULT</h1>
+        <p>Owner: @fktricks9 | Status: <span style="color:#4ade80;">UNLOCKED</span></p>
+    </div>
+    <div class="container">
+        <div class="tool-card" onclick="location.href='tools.html'">
+            <p>OPEN ALL TOOLS</p>
+            <span class="badge">PRO</span>
+        </div>
+    </div>
+</body>
 </html>
