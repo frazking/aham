@@ -1,42 +1,7 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>FARAZ VAULT | ADMIN</title>
-    <style>
-        body { background: #0f172a; color: white; font-family: sans-serif; text-align: center; padding-top: 50px; }
-        .box { background: #1e293b; padding: 20px; border-radius: 10px; display: inline-block; border: 1px solid #334155; }
-        input { padding: 10px; margin: 10px; border-radius: 5px; border: none; }
-        button { padding: 10px 20px; background: #8b5cf6; color: white; border: none; border-radius: 5px; cursor: pointer; }
-    </style>
-</head>
-<body>
-    <div class="box" id="loginBox">
-        <h2>FARAZ VAULT ADMIN</h2>
-        <input type="password" id="pass" placeholder="Enter Master Key">
-        <br>
-        <button onclick="login()">Access Dashboard</button>
-    </div>
-    <div id="dash" style="display:none;">
-        <h1>Welcome Boss, Faraz!</h1>
-        <p>System Status: <span style="color: #4ade80;">ACTIVE (STANDALONE)</span></p>
-        <hr>
-        <div style="text-align: left; display: inline-block;">
-            <h3>Admin Tools:</h3>
-            <ul>
-                <li>Edit Tools List (Via Termux: nano index.html)</li>
-                <li>Change Telegram: </li>
-                <li>Live Branding: FARAZ VAULT</li>
-            </ul>
-        </div>
-    </div>
-    <script>
-        function login() {
-            var p = document.getElementById("pass").value;
-            if(p == "FARAZ2026") {
-                document.getElementById("loginBox").style.display = "none";
-                document.getElementById("dash").style.display = "block";
-            } else { alert("Wrong Key!"); }
-        }
-    </script>
-</body>
-</html>
+<html><head><title>FARAZ VAULT ADMIN</title></head>
+<body style="background:#000;color:#fff;text-align:center;">
+<h2>FARAZ VAULT ADMIN PANEL</h2>
+<input type="password" id="p" placeholder="Key"><button onclick="l()">Login</button>
+<script>function l(){if(document.getElementById('p').value=='FARAZ2026'){alert('Welcome!');window.location.href='index.html';}else{alert('Wrong');}}</script>
+</body></html>
